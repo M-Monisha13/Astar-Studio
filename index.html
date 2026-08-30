@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/modernist-f098d82a-c8e9-4550-9267-9ff1a13e332e/styles.css">
+<script src="_ds/modernist-f098d82a-c8e9-4550-9267-9ff1a13e332e/_ds_bundle.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Caveat:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--color-bg); color: var(--color-text);
+    font-family: var(--font-body); font-size: 16px; line-height: 24px; text-wrap: pretty; }
+  a { color: var(--color-accent-700); text-decoration: none; }
+  a:hover { color: var(--color-accent-800); text-decoration: underline; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+  @keyframes astar-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @keyframes astar-bounce-in {
+    0%   { transform: translateY(-38px); opacity: 0; }
+    45%  { transform: translateY(0); opacity: 1; }
+    62%  { transform: translateY(-14px); }
+    78%  { transform: translateY(0); }
+    88%  { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce) { .astar-bounce { animation: none !important; } }
+  @media (prefers-reduced-motion: reduce) { .astar-marquee-track { animation: none !important; } }
+</style>
+</helmet>
+
+<nav class="nav" style="padding-inline: max(24px, calc((100% - 1160px) / 2 + 24px)); gap: 24px; flex-wrap: wrap; border-bottom: 2px solid var(--color-divider)">
+  <span class="nav-brand" style="display: flex; align-items: center; gap: 14px; padding: 6px 0"><img src="assets/astar-mark.png" alt="" style="height: 45px; width: 67px; object-fit: contain; display: block"><span style="display: block"><span style="display: block; font-family: var(--font-heading); font-weight: 700; font-size: 24px; line-height: 1; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-text)">Astar</span><span style="display: flex; align-items: center; gap: 6px; margin-top: 4px"><span style="width: 14px; height: 1.5px; background: var(--color-accent-700)"></span><span style="font-family: var(--font-heading); font-weight: 600; font-size: 11px; line-height: 1; letter-spacing: 0.42em; text-transform: uppercase; color: var(--color-accent-700)">Studio</span><span style="flex: 1; height: 1.5px; background: var(--color-accent-700)"></span></span><span style="display: block; font-size: 9px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-neutral-700); margin-top: 5px">CONNECT<span style="color: var(--color-accent-700);">·</span> CREATE&nbsp;<span style="color: var(--color-accent-700);">·</span> CELEBRATE</span></span></span>
+  <a href="#space" style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap">The space</a>
+  <a href="#uses" style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap">What it's for</a>
+  <a href="#pricing" style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap">Pricing</a>
+  <a href="#enquire" class="btn" style="text-decoration: none; background: var(--color-accent-2-300); color: var(--color-accent-800); border-color: var(--color-accent-2-300)">ENQUIRE</a>
+</nav>
+
+<div style="overflow: hidden; background: var(--color-accent-2-200); border-bottom: 2px solid var(--color-divider); padding: 8px 0"><div class="astar-marquee-track" style="display: flex; width: max-content; animation: astar-marquee 70s linear infinite"><span style="font-size: 11px; line-height: 18px; letter-spacing: 0.03em; text-transform: uppercase; font-weight: 600; color: var(--color-accent-800); padding-right: 64px; white-space: nowrap">Newly Opened! ────୨ৎ────Be among the first to celebrate at Astar Studio ────୨ৎ──── Bookings are now open!</span><span style="font-size: 11px; line-height: 18px; letter-spacing: 0.03em; text-transform: uppercase; font-weight: 600; color: var(--color-accent-800); padding-right: 64px; white-space: nowrap">Newly Opened! ────୨ৎ────Be among the first to celebrate at Astar Studio ────୨ৎ──── Bookings are now open!</span><span style="font-size: 11px; line-height: 18px; letter-spacing: 0.03em; text-transform: uppercase; font-weight: 600; color: var(--color-accent-800); padding-right: 64px; white-space: nowrap">Newly Opened! ────୨ৎ────Be among the first to celebrate at Astar Studio ────୨ৎ──── Bookings are now open!</span><span style="font-size: 11px; line-height: 18px; letter-spacing: 0.03em; text-transform: uppercase; font-weight: 600; color: var(--color-accent-800); padding-right: 64px; white-space: nowrap">Newly Opened! ────୨ৎ────Be among the first to celebrate at Astar Studio ────୨ৎ──── Bookings are now open!</span><span style="font-size: 11px; line-height: 18px; letter-spacing: 0.03em; text-transform: uppercase; font-weight: 600; color: var(--color-accent-800); padding-right: 64px; white-space: nowrap">Newly Opened! ────୨ৎ────Be among the first to celebrate at Astar Studio ────୨ৎ──── Bookings are now open!</span><span style="font-size: 11px; line-height: 18px; letter-spacing: 0.03em; text-transform: uppercase; font-weight: 600; color: var(--color-accent-800); padding-right: 64px; white-space: nowrap">Newly Opened! ────୨ৎ────Be among the first to celebrate at Astar Studio ────୨ৎ──── Bookings are now open!</span><span style="font-size: 11px; line-height: 18px; letter-spacing: 0.03em; text-transform: uppercase; font-weight: 600; color: var(--color-accent-800); padding-right: 64px; white-space: nowrap">Newly Opened! ────୨ৎ────Be among the first to celebrate at Astar Studio ────୨ৎ──── Bookings are now open!</span><span style="font-size: 11px; line-height: 18px; letter-spacing: 0.03em; text-transform: uppercase; font-weight: 600; color: var(--color-accent-800); padding-right: 64px; white-space: nowrap">Newly Opened! ────୨ৎ────Be among the first to celebrate at Astar Studio ────୨ৎ──── Bookings are now open!</span></div></div>
+
+<div style="max-width: 1160px; margin: 0 auto; padding: 0 clamp(20px, 5vw, 24px)">
+
+  <section style="padding: 88px 0 40px">
+    <h1 style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(44px, 6.6vw, 88px); line-height: 1.02; letter-spacing: -0.03em; margin: 0">
+      <span class="astar-bounce" style="display: block; animation: astar-bounce-in 1.15s cubic-bezier(0.28, 0.84, 0.42, 1) both">Bring your idea.</span>
+      <span class="astar-bounce" style="display: block; animation: astar-bounce-in 1.15s cubic-bezier(0.28, 0.84, 0.42, 1) 0.16s both">We'll bring the space.</span>
+    </h1>
+    <p style="font-size: 18px; line-height: 28px; max-width: 60ch; margin: 32px 0 0">We built this space to stay out of your way. It's a blank canvas — no fixed theme, no house style — so whatever you bring in becomes the space for the day. Birthday, baby shower, hens do, or just your favourite people in one room — we want to help you make it feel like you.</p>
+    <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 32px">
+      <a href="tel:+0426781313" class="btn btn-secondary" style="text-decoration: none; color: var(--color-accent-700)" style-hover="background: color-mix(in srgb, var(--color-accent-700) 12%, transparent); border-color: var(--color-accent-700)">Call 0426 781 313 📞</a>
+      <a href="https://wa.me/0426781313" class="btn btn-secondary" style="text-decoration: none; color: #467C05" style-hover="background: color-mix(in srgb, #467C05 12%, transparent); border-color: #467C05">WhatsApp <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.347-.347.52-.52.174-.173.232-.297.347-.495.115-.199.058-.372-.03-.52-.087-.149-.66-1.591-.905-2.18-.234-.57-.472-.494-.646-.5-.174-.007-.372-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg></a>
+      <a href="mailto:booking@astarstudio.com.au" class="btn btn-secondary" style="text-decoration: none; color: #05747C" style-hover="background: color-mix(in srgb, #05747C 12%, transparent); border-color: #05747C">Email us <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16"></rect><path d="m2 6 10 7 10-7"></path></svg></a>
+    </div>
+  </section>
+
+  <sc-if value="{{ showSpecSheet }}" hint-placeholder-val="{{ true }}">
+  <section id="space" style="border-top: 2px solid var(--color-divider); padding: 0">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2px; background: var(--color-divider)">
+      <div style="background: var(--color-bg); padding: 24px 24px 28px 0">
+        <span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700)">Where📍</span>
+        <span style="display: block; font-family: var(--font-heading); font-weight: 800; font-size: 30px; line-height: 34px; letter-spacing: -0.02em; margin-top: 12px">Melbourne</span>
+        <span style="display: block; font-size: 14px; line-height: 22px; margin-top: 6px; color: var(--color-neutral-700)">18/2 Fastline Rd, Truganina VIC 3029</span>
+      </div>
+      <div style="background: var(--color-bg); padding: 24px 24px 28px">
+        <span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700)">Hire period⏳</span>
+        <span style="display: block; font-family: var(--font-heading); font-weight: 800; font-size: 30px; line-height: 34px; letter-spacing: -0.02em; margin-top: 12px">Full day</span>
+        <span style="display: block; font-size: 14px; line-height: 22px; margin-top: 6px; color: var(--color-neutral-700)">24 hours, one flat price</span>
+      </div>
+      <div style="background: var(--color-bg); padding: 24px 24px 28px">
+        <span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700)">Available✔️</span>
+        <span style="display: block; font-family: var(--font-heading); font-weight: 800; font-size: 30px; line-height: 34px; letter-spacing: -0.02em; margin-top: 12px">Mon — Sun</span>
+        <span style="display: block; font-size: 14px; line-height: 22px; margin-top: 6px; color: var(--color-neutral-700)">Any day, any time of day</span>
+      </div>
+      <div style="background: var(--color-bg); padding: 24px 24px 28px">
+        <span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700)">Book ahead🛎️</span>
+        <span style="display: block; font-family: var(--font-heading); font-weight: 800; font-size: 30px; line-height: 34px; letter-spacing: -0.02em; margin-top: 12px">5 days</span>
+        <span style="display: block; font-size: 14px; line-height: 22px; margin-top: 6px; color: var(--color-neutral-700)">Minimum notice to hold a date</span>
+      </div>
+    </div>
+  </section>
+  </sc-if>
+
+  <section style="border-top: 2px solid var(--color-divider); display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px clamp(24px, 5vw, 80px); align-items: start; padding: 56px 0 64px">
+    <div>
+      <span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700)">╰┈➤ The Space</span>
+      
+      <h2 style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(28px, 3.2vw, 40px); line-height: 1.08; letter-spacing: -0.02em; margin: 16px 0 0">One warehouse, one open room</h2><p style="font-size: 16px; line-height: 26px; margin: 24px 0 0; max-width: 46ch; color: var(--color-neutral-800)">Bring your own food and alcohol, decorate the space to match your vision, and create an event that's uniquely yours. From elegant celebrations to vibrant workshops, the room is yours to style and enjoy.</p><h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 20px; line-height: 26px; letter-spacing: -0.01em; margin: 32px 0 0">Included in Your Hire</h3><ul style="margin: 20px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; font-size: 15px; line-height: 22px; color: var(--color-neutral-800)">
+          <li style="color: var(--color-neutral-800)"><span style="color: var(--color-accent-700); font-weight: 700; margin-right: 8px">✦</span>Tables &amp; Chairs</li>
+          <li style="color: var(--color-neutral-800)"><span style="color: var(--color-accent-700); font-weight: 700; margin-right: 8px">✦</span>Speakers &amp; Stage</li>
+          <li style="color: var(--color-neutral-800)"><span style="color: var(--color-accent-700); font-weight: 700; margin-right: 8px">✦</span>Kitchen Facilities</li><li style="color: var(--color-neutral-800)"><span style="color: var(--color-accent-700); font-weight: 700; margin-right: 8px">✦</span>Air-Conditioned</li><li style="color: var(--color-neutral-800)"><span style="color: var(--color-accent-700); font-weight: 700; margin-right: 8px">✦</span>Toilets</li><li style="color: var(--color-neutral-800)"><span style="color: var(--color-accent-700); font-weight: 700; margin-right: 8px">✦</span>On-Site Parking</li>
+        </ul>
+      
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px">
+      <figure style="position: relative; margin: 0; padding: 10px 10px 26px; border-radius: 14px; box-shadow: 0 1px 0 var(--color-neutral-300), 0 6px 16px color-mix(in srgb, var(--color-text) 10%, transparent); background-color: var(--color-accent-2-400); border-width: 1px; border-style: dotted; border-color: var(--color-accent-800)">
+        <span class="grayscale" style="display: block; border-radius: 8px; overflow: hidden"><image-slot id="astar-room" shape="rect" style="width: 100%; aspect-ratio: 1 / 1" placeholder="Drop a photo of the space"></image-slot></span>
+        <button type="button" onClick="{{ zoomA }}" aria-label="View this photo full size" style="position: absolute; right: 8px; bottom: 8px; z-index: 2; background: var(--color-bg); border: 1.5px solid var(--color-text); color: var(--color-text); font-family: var(--font-heading); font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 8px; cursor: pointer" style-hover="background: var(--color-accent-2-300); border-color: var(--color-accent-800); color: var(--color-accent-800)">Expand</button>
+      </figure>
+      <figure style="position: relative; margin: 0; padding: 10px 10px 26px; border-radius: 14px; background: #fbfaf9; box-shadow: 0 1px 0 var(--color-neutral-300), 0 6px 16px color-mix(in srgb, var(--color-text) 10%, transparent); border-width: 1px; border-style: double; border-color: var(--color-accent-800)">
+        <span class="grayscale" style="display: block; border-radius: 8px; overflow: hidden"><image-slot id="astar-room-2" shape="rect" style="width: 100%; aspect-ratio: 1 / 1" placeholder="Drop a photo"></image-slot></span>
+        <button type="button" onClick="{{ zoomB }}" aria-label="View this photo full size" style="position: absolute; right: 8px; bottom: 8px; z-index: 2; background: var(--color-bg); border: 1.5px solid var(--color-text); color: var(--color-text); font-family: var(--font-heading); font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 8px; cursor: pointer" style-hover="background: var(--color-accent-2-300); border-color: var(--color-accent-800); color: var(--color-accent-800)">Expand</button>
+      </figure>
+      <figure style="position: relative; margin: 0; padding: 10px 10px 26px; border-radius: 14px; background: #fbfaf9; box-shadow: 0 1px 0 var(--color-neutral-300), 0 6px 16px color-mix(in srgb, var(--color-text) 10%, transparent); border-width: 1px; border-style: double; border-color: var(--color-accent-800)">
+        <span class="grayscale" style="display: block; border-radius: 8px; overflow: hidden"><image-slot id="astar-room-3" shape="rect" style="width: 100%; aspect-ratio: 1 / 1" placeholder="Drop a photo"></image-slot></span>
+        <button type="button" onClick="{{ zoomC }}" aria-label="View this photo full size" style="position: absolute; right: 8px; bottom: 8px; z-index: 2; background: var(--color-bg); border: 1.5px solid var(--color-text); color: var(--color-text); font-family: var(--font-heading); font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 8px; cursor: pointer" style-hover="background: var(--color-accent-2-300); border-color: var(--color-accent-800); color: var(--color-accent-800)">Expand</button>
+      </figure>
+      <figure style="position: relative; margin: 0; padding: 10px 10px 26px; border-radius: 14px; box-shadow: 0 1px 0 var(--color-neutral-300), 0 6px 16px color-mix(in srgb, var(--color-text) 10%, transparent); background-color: var(--color-accent-800); border-width: 1px; border-style: dotted; border-color: var(--color-accent-2-300)">
+        <span class="grayscale" style="display: block; border-radius: 8px; overflow: hidden"><image-slot id="astar-room-4" shape="rect" style="width: 100%; aspect-ratio: 1 / 1" placeholder="Drop a photo"></image-slot></span>
+        <button type="button" onClick="{{ zoomD }}" aria-label="View this photo full size" style="position: absolute; right: 8px; bottom: 8px; z-index: 2; background: var(--color-bg); border: 1.5px solid var(--color-text); color: var(--color-text); font-family: var(--font-heading); font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 8px; cursor: pointer" style-hover="background: var(--color-accent-2-300); border-color: var(--color-accent-800); color: var(--color-accent-800)">Expand</button>
+      </figure>
+    </div>
+  </section><div style="overflow: hidden; margin: 5px 0; border-top: 2px solid var(--color-divider); border-bottom: 2px solid var(--color-divider); padding: 10px 0"><div class="astar-marquee-track" style="display: flex; width: max-content; animation: astar-marquee 26s linear infinite"><span style="font-style: normal; font-weight: 400; color: var(--color-accent-800); text-transform: uppercase; padding-right: 48px; white-space: nowrap">Connect ✿  Create  ✿ Celebrate ✿</span><span style="font-style: normal; font-weight: 400; color: var(--color-accent-800); text-transform: uppercase; padding-right: 48px; white-space: nowrap">Connect ✿  Create  ✿ Celebrate ✿</span><span style="font-style: normal; font-weight: 400; color: var(--color-accent-800); text-transform: uppercase; padding-right: 48px; white-space: nowrap">Connect ✿  Create  ✿ Celebrate ✿</span><span style="font-style: normal; font-weight: 400; color: var(--color-accent-800); text-transform: uppercase; padding-right: 48px; white-space: nowrap">Connect ✿  Create  ✿ Celebrate ✿</span><span style="font-style: normal; font-weight: 400; color: var(--color-accent-800); text-transform: uppercase; padding-right: 48px; white-space: nowrap">Connect ✿  Create  ✿ Celebrate ✿</span><span style="font-style: normal; font-weight: 400; color: var(--color-accent-800); text-transform: uppercase; padding-right: 48px; white-space: nowrap">Connect ✿  Create  ✿ Celebrate ✿</span></div></div>
+
+  <section id="uses" style="border-top: 2px solid var(--color-divider); padding: 56px 0 64px">
+    <span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700)">╰┈➤ What it's for</span>
+    <h2 style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(28px, 3.2vw, 40px); line-height: 1.08; letter-spacing: -0.02em; margin: 16px 0 40px; max-width: 24ch">A blank canvas, endless reasons to book it</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2px; background: var(--color-divider)">
+      <div style="background: var(--color-bg); padding: 24px 24px 32px 0">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 20px; line-height: 26px; letter-spacing: -0.01em; margin: 0">Celebrations</h3>
+        <ul style="margin: 20px 0 0; padding: 0 0 0 22px; list-style: disc; display: grid; gap: 10px; font-size: 15px; line-height: 22px; color: var(--color-neutral-800)">
+          <li style="display: list-item; color: var(--color-accent-700)">Birthday Parties🎉</li>
+          <li style="display: list-item; color: var(--color-accent-700)">Bridal Showers &amp; Hens👰</li>
+          <li style="display: list-item; color: var(--color-accent-700)">Baby Showers🍼</li>
+        </ul>
+      </div>
+      <div style="background: var(--color-bg); padding: 24px 24px 32px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 20px; line-height: 26px; letter-spacing: -0.01em; margin: 0">Milestones &amp; gatherings</h3>
+        <ul style="margin: 20px 0 0; padding: 0 0 0 22px; list-style: disc; display: grid; gap: 10px; font-size: 15px; line-height: 22px; color: var(--color-accent-700)">
+          <li style="display: list-item">Graduation Parties🎓</li>
+          <li style="display: list-item">Engagement Parties💍</li>
+          <li style="display: list-item">Family Celebrations👨‍👩‍👧</li>
+          <li style="display: list-item">Private Functions💃</li>
+        </ul>
+      </div>
+      <div style="background: var(--color-bg); padding: 24px 24px 32px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 20px; line-height: 26px; letter-spacing: -0.01em; margin: 0">Classes &amp; workshops</h3>
+        <ul style="margin: 20px 0 0; padding: 0 0 0 22px; list-style: disc; display: grid; gap: 10px; font-size: 15px; line-height: 22px; color: var(--color-accent-700)">
+          <li style="display: list-item">Workshop Hire💼</li>
+          <li style="display: list-item">Private Lessons — Dance, Zumba, Kirtan, Meditation, Stretch class🤸🏻‍♀️</li><li style="display: list-item">Many more.....(you name it)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="pricing" style="border-top: 2px solid var(--color-divider); padding: 56px 0 64px">
+    <span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700)">╰┈➤Pricing</span>
+    <h2 style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(28px, 3.2vw, 40px); line-height: 1.08; letter-spacing: -0.02em; margin: 16px 0 0">Simple, upfront pricing</h2>
+    <p style="font-size: 16px; line-height: 26px; margin: 20px 0 40px; max-width: 50ch; color: var(--color-neutral-800)">One flat price for the full day — 24 hours of the space, whichever package you choose.</p>
+
+    <sc-if value="{{ cardLayout }}" hint-placeholder-val="{{ true }}">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2px; background: var(--color-divider)">
+      <div style="background: var(--color-bg); padding: 24px 24px 32px 0; display: flex; flex-direction: column; gap: 14px">
+        <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #209014">Package 01</span>
+        <span style="font-family: var(--font-heading); font-weight: 800; font-size: 60px; line-height: 56px; letter-spacing: -0.04em">$500</span>
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 20px; line-height: 26px; letter-spacing: -0.01em; margin: 0">Clean As You Go</h3>
+        <p style="font-size: 15px; line-height: 23px; margin: 0; color: var(--color-neutral-800)">You handle the clean-up before you head off.</p>
+      </div>
+      <div style="background: var(--color-bg); padding: 24px 24px 32px; display: flex; flex-direction: column; gap: 14px">
+        <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #FA7C2A">Package 02</span>
+        <span style="font-family: var(--font-heading); font-weight: 800; font-size: 60px; line-height: 56px; letter-spacing: -0.04em">$700</span>
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 20px; line-height: 26px; letter-spacing: -0.01em; margin: 0">Cleaning Included</h3>
+        <p style="font-size: 15px; line-height: 23px; margin: 0; color: var(--color-neutral-800)">Includes cleaning after your party.</p>
+      </div>
+      <div style="background: var(--color-bg); padding: 24px 24px 32px; display: flex; flex-direction: column; gap: 14px">
+        <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent)">Package 03</span>
+        <span style="font-family: var(--font-heading); font-weight: 800; font-size: 60px; line-height: 56px; letter-spacing: -0.04em">$950</span>
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 20px; line-height: 26px; letter-spacing: -0.01em; margin: 0">Cleaning &amp; Decorations</h3>
+        <p style="font-size: 15px; line-height: 23px; margin: 0; color: var(--color-neutral-800)">Includes cleaning after your party and party decorations.</p>
+      </div>
+    </div>
+    </sc-if>
+
+    <sc-if value="{{ tableLayout }}" hint-placeholder-val="{{ false }}">
+    <table class="table" style="table-layout: fixed; width: 100%">
+      
+      <thead>
+        <tr>
+          <th scope="col" style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 12px 24px 12px 0; color: var(--color-neutral-700)">Price</th>
+          <th scope="col" style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 12px 24px 12px 0; color: var(--color-neutral-700)">Package</th>
+          <th scope="col" style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 12px 0; color: var(--color-neutral-700)">Includes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 16px 24px 16px 0; font-family: var(--font-heading); font-weight: 800; font-size: 30px; line-height: 34px; letter-spacing: -0.03em; vertical-align: middle">$250</td>
+          <td style="padding: 16px 24px 16px 0; font-size: 15px; line-height: 23px; vertical-align: middle">Clean As You Go</td>
+          <td style="padding: 16px 0; font-size: 15px; line-height: 23px; vertical-align: middle; color: var(--color-neutral-800)">You handle the clean-up before you head off.</td>
+        </tr>
+        <tr>
+          <td style="padding: 16px 24px 16px 0; font-family: var(--font-heading); font-weight: 800; font-size: 30px; line-height: 34px; letter-spacing: -0.03em; vertical-align: middle">$500</td>
+          <td style="padding: 16px 24px 16px 0; font-size: 15px; line-height: 23px; vertical-align: middle">Cleaning Included</td>
+          <td style="padding: 16px 0; font-size: 15px; line-height: 23px; vertical-align: middle; color: var(--color-neutral-800)">Includes cleaning after your party.</td>
+        </tr>
+        <tr>
+          <td style="padding: 16px 24px 16px 0; font-family: var(--font-heading); font-weight: 800; font-size: 30px; line-height: 34px; letter-spacing: -0.03em; vertical-align: middle; border-bottom: 0">$800</td>
+          <td style="padding: 16px 24px 16px 0; font-size: 15px; line-height: 23px; vertical-align: middle; border-bottom: 0">Cleaning &amp; Decorations</td>
+          <td style="padding: 16px 0; font-size: 15px; line-height: 23px; vertical-align: middle; border-bottom: 0; color: var(--color-neutral-800)">Includes cleaning after your party and party decorations.</td>
+        </tr>
+      </tbody>
+    </table>
+    </sc-if>
+  </section>
+
+  
+
+  
+
+  <section id="enquire" style="background: var(--color-accent-2-300); color: var(--color-accent-900); padding: 56px clamp(20px, 5vw, 24px) 60px; margin: 0 calc(-1 * clamp(20px, 5vw, 24px))">
+    <aside style="position: relative; float: right; width: min(320px, 100%); margin: 12px 0 24px 32px; padding: 38px 26px 26px; background: var(--color-neutral-100); border: 0; box-shadow: var(--shadow-lg); transform: rotate(-0.6deg)">
+      <span aria-hidden="true" style="position: absolute; top: -14px; left: 50%; transform: translateX(-50%); font-size: 50px; line-height: 1">📎</span>
+      <h3 style="font-family: 'Caveat', cursive; font-weight: 700; font-size: 26px; line-height: 1.1; letter-spacing: 0; text-transform: none; margin: 0; color: var(--color-accent-700)">❤️ Built on trust!</h3>
+      <p style="margin: 12px 0 0; font-family: 'Caveat', cursive; font-size: 19px; line-height: 26px; color: var(--color-text)">This venue is more than just a business to us. We aim to build long lasting relationships with our customers and provide fair and transparent service. In return, we simply ask our guests to treat the venue with the same respect and care we strive to provide.</p>
+      <p style="margin: 12px 0 0; font-family: 'Caveat', cursive; font-size: 19px; line-height: 26px; font-weight: 700; color: var(--color-text)">Thank you for choosing us.🙏</p>
+      <p style="margin: 6px 0 0; font-family: 'Caveat', cursive; font-size: 18px; letter-spacing: 0; text-transform: none; color: var(--color-accent-700)">— Astar Studio Team</p>
+    </aside>
+    <span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-800)">╰┈➤Book a date</span>
+    <h2 style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(36px, 5vw, 64px); line-height: 1.02; letter-spacing: -0.03em; margin: 20px 0 0; max-width: 22ch">Tell us your date.</h2>
+    <p style="font-size: 17px; line-height: 27px; margin: 24px 0 0; max-width: 52ch">Bookable Monday to Sunday, anytime. Booking required at least 5 days ahead — message us with your date, your rough numbers and what you're planning, and we'll confirm availability.</p>
+    <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 36px">
+      <a href="tel:+61426781313" class="btn" style="background: transparent; color: var(--color-accent-800); border-color: var(--color-accent-800); text-decoration: none" style-hover="background: color-mix(in srgb, var(--color-accent-800) 14%, transparent)">Let's Talk 📞</a>
+      <a href="https://wa.me/61426781313" class="btn" style="background: transparent; color: var(--color-accent-800); border-color: var(--color-accent-800); text-decoration: none" style-hover="background: color-mix(in srgb, var(--color-accent-800) 14%, transparent)">WhatsApp <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.347-.347.52-.52.174-.173.232-.297.347-.495.115-.199.058-.372-.03-.52-.087-.149-.66-1.591-.905-2.18-.234-.57-.472-.494-.646-.5-.174-.007-.372-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg></a>
+      <a href="mailto:astarstudio@icloud.com" class="btn" style="background: transparent; color: var(--color-accent-800); border-color: var(--color-accent-800); text-decoration: none" style-hover="background: color-mix(in srgb, var(--color-accent-800) 14%, transparent)">astarstudio@icloud.com <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16"></rect><path d="m2 6 10 7 10-7"></path></svg></a>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin-top: 28px">
+    <a href="#space" style="text-decoration-line: underline; font-size: 10px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent-800)" style-hover="color: var(--color-accent-900)">The Space</a>
+    <a href="#uses" style="text-decoration-line: underline; font-size: 10px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent-800)" style-hover="color: var(--color-accent-900)">What it's for</a>
+    <a href="#pricing" style="text-decoration-line: underline; font-size: 10px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent-800)" style-hover="color: var(--color-accent-900)">Pricing</a>
+    <button type="button" onClick="{{ openTerms }}" style="display: inline-block; text-decoration-line: underline; background: none; border: 0; padding: 0; font-family: inherit; font-size: 10px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent-800); cursor: pointer" style-hover="color: var(--color-accent-900)">Terms and Conditions</button>
+    <button type="button" onClick="{{ openComplaints }}" style="display: inline-block; text-decoration-line: underline; background: none; border: 0; padding: 0; font-family: inherit; font-size: 10px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent-800); cursor: pointer" style-hover="color: var(--color-accent-900)">Complaints</button>
+    </div>
+  </section><div style="overflow: hidden; border-top: 2px solid var(--color-divider); padding: 10px 0; margin-top: 0"><div class="astar-marquee-track" style="display: flex; width: max-content; animation: astar-marquee 90s linear infinite"><span style="font-size: 11px; line-height: 18px; letter-spacing: 0.04em; color: var(--color-neutral-700); padding-right: 64px; white-space: nowrap">ꕤ ASTAR STUDIO acknowledges the Traditional Custodians of the lands on where we work, live, and conduct business across Australia. We pay our respects to Elders past and present ꕤ</span><span style="font-size: 11px; line-height: 18px; letter-spacing: 0.04em; color: var(--color-neutral-700); padding-right: 64px; white-space: nowrap">ꕤ ASTAR STUDIO acknowledges the Traditional Custodians of the lands on where we work, live, and conduct business across Australia. We pay our respects to Elders past and present ꕤ</span></div></div><footer style="padding: 10px 0 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 32px; justify-content: space-between; font-size: 13px; line-height: 22px; color: var(--color-neutral-700)">
+    <img src="assets/astar-logo-v2.png" alt="Astar Studio — connect, create, celebrate" style="height: 104px; display: block; width: 108px; object-fit: contain">
+    <span style="text-transform: uppercase">© 2026 Astar Studio. All rights reserved.</span>
+    <div style="display: flex; align-items: center; gap: 18px">
+      <a href="https://facebook.com/astarstudio" target="_blank" rel="noopener" aria-label="Facebook" style="display: block; color: var(--color-neutral-700)" style-hover="color: var(--color-accent-700)"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"></path></svg></a>
+      <a href="https://instagram.com/astarstudio" target="_blank" rel="noopener" aria-label="Instagram" style="display: block; color: var(--color-neutral-700)" style-hover="color: var(--color-accent-700)"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913a5.885 5.885 0 0 0 1.384 2.126A5.868 5.868 0 0 0 4.14 23.37c.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558a5.898 5.898 0 0 0 2.126-1.384 5.86 5.86 0 0 0 1.384-2.126c.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913a5.89 5.89 0 0 0-1.384-2.126A5.847 5.847 0 0 0 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.9.419.418.679.816.896 1.378.164.422.361 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227a3.81 3.81 0 0 1-.899 1.382 3.744 3.744 0 0 1-1.38.896c-.42.164-1.065.361-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421a3.716 3.716 0 0 1-1.379-.899 3.644 3.644 0 0 1-.9-1.38c-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 1 0 0-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 0 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"></path></svg></a>
+      <a href="https://x.com/astarstudio" target="_blank" rel="noopener" aria-label="Twitter / X" style="display: block; color: var(--color-neutral-700)" style-hover="color: var(--color-accent-700)"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"></path></svg></a>
+      <a href="https://linkedin.com/company/astarstudio" target="_blank" rel="noopener" aria-label="LinkedIn" style="display: block; color: var(--color-neutral-700)" style-hover="color: var(--color-accent-700)"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"></path></svg></a>
+    </div>
+  </footer>
+</div>
+
+<sc-if value="{{ termsOpen }}" hint-placeholder-val="{{ false }}">
+<div class="dialog-backdrop" onClick="{{ closeTerms }}" style="position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; padding: 24px; z-index: 50">
+  <div class="dialog" role="dialog" aria-modal="true" aria-label="Terms and Conditions" onClick="{{ stopClose }}" style="max-width: 620px; width: 100%; max-height: 86vh; overflow: auto; padding: 32px; background: var(--color-bg); border: 2px solid var(--color-text)">
+    <div style="display: flex; align-items: start; gap: 24px; justify-content: space-between">
+      <h2 style="font-family: var(--font-heading); font-weight: 800; font-size: 28px; line-height: 1.1; letter-spacing: -0.02em; margin: 0">Terms and Conditions</h2>
+      <button type="button" onClick="{{ closeTerms }}" aria-label="Close" style="background: none; border: 0; padding: 4px; margin: -4px -4px 0 0; font-family: var(--font-heading); font-size: 22px; line-height: 1; color: var(--color-text); cursor: pointer" style-hover="color: var(--color-accent-700)">×</button>
+    </div>
+    <ol style="margin: 24px 0 0; padding: 0 0 0 22px; display: grid; gap: 14px; font-size: 15px; line-height: 23px; color: var(--color-neutral-800)">
+      <li>The venue is under 24/7 surveillance.</li>
+      <li>Alcohol use is prohibited unless approved in advance by the owner.</li>
+      <li>Loud music after hours must be kept under control.</li>
+      <li>Any damage to the property will be assessed and added as an additional cost.</li>
+      <li>We take no responsibility for anyone — adults or kids — hurt on the premises during the party.</li>
+      <li>This is a self-hosted venue. Owner presence during your party is available on request only — we'll do our best, but it isn't guaranteed.</li>
+      <li>Customers must report any incident or accident immediately to the owner, or call 000.</li>
+      <li>Cancellation &amp; Refund Policy — Cancel more than 24 hours before your event and receive a full refund. Cancellations made within 24 hours of the event date are eligible for a 50% refund. Failure to attend your event without notice will not be eligible for a refund.</li>
+    </ol>
+    <div style="display: flex; justify-content: flex-start; margin-top: 32px">
+      <button type="button" class="btn" onClick="{{ closeTerms }}" style="background: transparent; color: var(--color-accent-800); border-color: var(--color-accent-800)" style-hover="background: color-mix(in srgb, var(--color-accent-800) 14%, transparent)">Close</button>
+    </div>
+  </div>
+</div>
+</sc-if>
+
+<sc-if value="{{ complaintsOpen }}" hint-placeholder-val="{{ false }}">
+<div class="dialog-backdrop" onClick="{{ closeComplaints }}" style="position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; padding: 24px; z-index: 50">
+  <div class="dialog" role="dialog" aria-modal="true" aria-label="Complaints" onClick="{{ stopClose }}" style="max-width: 560px; width: 100%; padding: 32px; background: var(--color-bg); border: 2px solid var(--color-text)">
+    <div style="display: flex; align-items: start; gap: 24px; justify-content: space-between">
+      <h2 style="font-family: var(--font-heading); font-weight: 800; font-size: 28px; line-height: 1.1; letter-spacing: -0.02em; margin: 0">Complaints</h2>
+      <button type="button" onClick="{{ closeComplaints }}" aria-label="Close" style="background: none; border: 0; padding: 4px; margin: -4px -4px 0 0; font-family: var(--font-heading); font-size: 22px; line-height: 1; color: var(--color-text); cursor: pointer" style-hover="color: var(--color-accent-700)">×</button>
+    </div>
+    <p style="margin: 24px 0 0; font-size: 16px; line-height: 26px; color: var(--color-neutral-800)">If you experience a problem, aren’t satisfied with our services or a decision we’ve made, let us know so that we can help.</p>
+    <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px">
+      <a href="sms:+61426781313" class="btn btn-secondary" style="text-decoration: none">Text 0426 781 313</a>
+      <a href="mailto:astarstudio@icloud.com" class="btn btn-secondary" style="text-decoration: none">astarstudio@icloud.com</a>
+    </div>
+  </div>
+</div>
+</sc-if>
+
+<sc-if value="{{ photoOpen }}" hint-placeholder-val="{{ false }}">
+<div onClick="{{ closePhoto }}" style="position: fixed; inset: 0; background: color-mix(in srgb, var(--color-text) 90%, transparent); display: flex; align-items: center; justify-content: center; padding: 32px; z-index: 60; cursor: zoom-out">
+  <div style="max-width: 100%; max-height: 88vh; display: block">{{ photoImg }}</div>
+  <button type="button" onClick="{{ closePhoto }}" aria-label="Close" style="position: absolute; top: 20px; right: 24px; background: none; border: 0; font-family: var(--font-heading); font-size: 32px; line-height: 1; color: var(--color-bg); cursor: pointer">×</button>
+</div>
+</sc-if>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;pricingLayout&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;cards&quot;,&quot;table&quot;],&quot;default&quot;:&quot;cards&quot;,&quot;tsType&quot;:&quot;'cards' | 'table'&quot;,&quot;section&quot;:&quot;Pricing&quot;},&quot;showSpecSheet&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;}}">
+class Component extends DCLogic {
+  state = { termsOpen: false, complaintsOpen: false, photoSrc: "" };
+  _zoom(id) {
+    const el = document.getElementById(id);
+    const img = el && el.shadowRoot && el.shadowRoot.querySelector(".frame img");
+    const src = img && img.getAttribute("src");
+    if (src) this.setState({ photoSrc: src });
+  }
+  componentDidMount() {
+    this._onKey = (e) => { if (e.key === "Escape") this.setState({ termsOpen: false, complaintsOpen: false, photoSrc: "" }); };
+    document.addEventListener("keydown", this._onKey);
+  }
+  componentWillUnmount() { document.removeEventListener("keydown", this._onKey); }
+  renderVals() {
+    const layout = this.props.pricingLayout ?? "cards";
+    return {
+      termsOpen: this.state.termsOpen,
+      openTerms: () => this.setState({ termsOpen: true }),
+      closeTerms: () => this.setState({ termsOpen: false }),
+      stopClose: (e) => e.stopPropagation(),
+      complaintsOpen: this.state.complaintsOpen,
+      openComplaints: () => this.setState({ complaintsOpen: true }),
+      closeComplaints: () => this.setState({ complaintsOpen: false }),
+      photoOpen: !!this.state.photoSrc,
+      photoImg: this.state.photoSrc
+        ? React.createElement("img", {
+            src: this.state.photoSrc,
+            alt: "Astar Studio — the space",
+            style: { maxWidth: "100%", maxHeight: "88vh", display: "block" },
+          })
+        : null,
+      closePhoto: () => this.setState({ photoSrc: "" }),
+      zoomA: () => this._zoom("astar-room"),
+      zoomB: () => this._zoom("astar-room-2"),
+      zoomC: () => this._zoom("astar-room-3"),
+      zoomD: () => this._zoom("astar-room-4"),
+      showSpecSheet: this.props.showSpecSheet ?? true,
+      cardLayout: layout === "cards",
+      tableLayout: layout === "table",
+    };
+  }
+}
+
+</script>
+</body>
+</html>
