@@ -252,7 +252,7 @@
       <a href="tel:+61426781313" class="btn" style="background: transparent; color: var(--color-accent-800); border-color: var(--color-accent-800); text-decoration: none" style-hover="background: color-mix(in srgb, var(--color-accent-800) 14%, transparent)">Let's Talk 📞</a>
       <a href="https://wa.me/61426781313" class="btn" style="background: transparent; color: var(--color-accent-800); border-color: var(--color-accent-800); text-decoration: none" style-hover="background: color-mix(in srgb, var(--color-accent-800) 14%, transparent)">WhatsApp <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.347-.347.52-.52.174-.173.232-.297.347-.495.115-.199.058-.372-.03-.52-.087-.149-.66-1.591-.905-2.18-.234-.57-.472-.494-.646-.5-.174-.007-.372-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg></a>
       <a href="mailto:astarstudio@icloud.com" class="btn" style="background: transparent; color: var(--color-accent-800); border-color: var(--color-accent-800); text-decoration: none" style-hover="background: color-mix(in srgb, var(--color-accent-800) 14%, transparent)">astarstudio@icloud.com <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16"></rect><path d="m2 6 10 7 10-7"></path></svg></a>
-    </div>
+    </div>-
     <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin-top: 28px">
     <a href="#space" style="text-decoration-line: underline; font-size: 10px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent-800)" style-hover="color: var(--color-accent-900)">The Space</a>
     <a href="#uses" style="text-decoration-line: underline; font-size: 10px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent-800)" style-hover="color: var(--color-accent-900)">What it's for</a>
@@ -274,30 +274,102 @@
 
 <sc-if value="{{ termsOpen }}" hint-placeholder-val="{{ false }}">
 <div class="dialog-backdrop" onClick="{{ closeTerms }}" style="position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; padding: 24px; z-index: 50">
-  <div class="dialog" role="dialog" aria-modal="true" aria-label="Terms and Conditions" onClick="{{ stopClose }}" style="max-width: 620px; width: 100%; max-height: 86vh; overflow: auto; padding: 32px; background: var(--color-bg); border: 2px solid var(--color-text)">
+  <div class="dialog" role="dialog" aria-modal="true" aria-label="Terms, Conditions and Privacy Policy" onClick="{{ stopClose }}" style="max-width: 620px; width: 100%; max-height: 86vh; overflow: auto; padding: 32px; background: var(--color-bg); border: 2px solid var(--color-text)">
     <div style="display: flex; align-items: start; gap: 24px; justify-content: space-between">
       <h2 style="font-family: var(--font-heading); font-weight: 800; font-size: 28px; line-height: 1.1; letter-spacing: -0.02em; margin: 0">Terms and Conditions</h2>
       <button type="button" onClick="{{ closeTerms }}" aria-label="Close" style="background: none; border: 0; padding: 4px; margin: -4px -4px 0 0; font-family: var(--font-heading); font-size: 22px; line-height: 1; color: var(--color-text); cursor: pointer" style-hover="color: var(--color-accent-700)">×</button>
     </div>
-    <ol style="margin: 24px 0 0; padding: 0 0 0 22px; display: grid; gap: 14px; font-size: 15px; line-height: 23px; color: var(--color-neutral-800)">
-      <li>The venue is monitored by 24/7 security surveillance.</li>
-      <li>The venue operates a strict no-smoking and no-pets policy. Smoking is permitted only in designated outdoor areas.</li>
-      <li>The booking period includes both setup and pack-down time.</li>
-      <li>BYO alcohol is permitted only with prior approval and must be confirmed as part of your booking.</li>
-      <li>External catering is welcome</li>
-      <li>You are welcome to bring your own decorations, DJ, and music equipment.</li>
-      <li>The ground floor of the venue is currently not air-conditioned.</li>
-      <li>Access to the upper floor is available only with prior approval and where included in your booking.</li>
-      <li>Mirrors, decorative lighting, and selected décor items may be available upon request and subject to approval.</li>
-      <li>There are currently no specific noise restrictions; however, excessive noise and loud music, particularly outside normal operating hours, must be kept to a reasonable level.</li>
-      <li>Any damage to the venue, fixtures, equipment, or other provided items will be assessed and charged accordingly.</li>
-      <li>Guests attend and use the venue at their own risk. The venue owner accepts no liability for injury, loss, or damage sustained by any guest during the event, except where required by law.</li>
-      <li>Children must be supervised by a responsible adult at all times. The hirer is responsible for the conduct and safety of all guests attending the event.</li>
-      <li>This is a self-hosted venue. Owner attendance during your event is available by prior arrangement only and cannot be guaranteed.</li>
-      <li>At the conclusion of the event, the venue must be vacated in a clean and tidy condition, substantially the same as it was provided. This includes removal of all rubbish, decorations, and personal items brought onto the premises.</li> 
-      <li>Any incident, accident, damage, or safety concern must be reported to the venue owner immediately. In emergencies, please contact 000.</li>
-      <li>Cancellation & Refund Policy: A 24-hour grace period applies following booking confirmation, during which a full deposit refund is available. This grace period does not apply to events scheduled to commence within 48 hours of booking. Cancellations made more than 30 days before the event will receive a 100% refund. Cancellations made between 30 days and 7 days before the event will receive a 50% refund. Cancellations made within 7 days of the event are non-refundable.</li>
-    </ol>
+    <div style="margin-top: 24px">
+      <section style="margin-top: 0px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 24px; letter-spacing: -0.01em; margin: 0; padding-top: 0px; color: var(--color-text)">Venue Usage</h3>
+        <ul style="margin: 10px 0 0; padding: 0 0 0 22px; display: grid; gap: 8px; font-size: 13px; line-height: 23px; color: var(--color-neutral-800)">
+          <li>The booking period includes both setup and pack-down time.</li>
+          <li>This is a self-hosted venue.</li>
+          <li>Owner attendance during your event is available by prior arrangement only and cannot be guaranteed.</li>
+          <li>Access to the upper floor is available only with prior approval and where included in your booking.</li>
+          <li>The ground floor of the venue is currently not air-conditioned.</li>
+        </ul>
+      </section>
+      <section style="margin-top: 24px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 24px; letter-spacing: -0.01em; margin: 0; padding-top: 14px; border-top: 1px solid var(--color-divider); color: var(--color-text)">Guest Responsibilities</h3>
+        <ul style="margin: 10px 0 0; padding: 0 0 0 22px; display: grid; gap: 8px; font-size: 13px; line-height: 23px; color: var(--color-neutral-800)">
+          <li>The hirer is responsible for the conduct and safety of all guests attending the event.</li>
+          <li>Children must be supervised by a responsible adult at all times.</li>
+          <li>Guests attend and use the venue at their own risk.</li>
+          <li>Any incident, accident, damage, or safety concern must be reported to the venue owner immediately. In emergencies, please contact 000.</li>
+          <li>At the conclusion of the event, the venue must be vacated in a clean and tidy condition, substantially the same as it was provided. This includes the removal of all rubbish, decorations, and personal items brought onto the premises.</li>
+        </ul>
+      </section>
+      <section style="margin-top: 24px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 24px; letter-spacing: -0.01em; margin: 0; padding-top: 14px; border-top: 1px solid var(--color-divider); color: var(--color-text)">Safety &amp; Security</h3>
+        <ul style="margin: 10px 0 0; padding: 0 0 0 22px; display: grid; gap: 8px; font-size: 13px; line-height: 23px; color: var(--color-neutral-800)">
+          <li>The venue is monitored by 24/7 security surveillance.</li>
+          <li>Smoking is permitted only in designated outdoor areas. The venue operates a strict no-smoking policy indoors.</li>
+          <li>Pets are not permitted on the premises.</li>
+        </ul>
+      </section>
+      <section style="margin-top: 24px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 24px; letter-spacing: -0.01em; margin: 0; padding-top: 14px; border-top: 1px solid var(--color-divider); color: var(--color-text)">Food, Beverages &amp; Entertainment</h3>
+        <ul style="margin: 10px 0 0; padding: 0 0 0 22px; display: grid; gap: 8px; font-size: 13px; line-height: 23px; color: var(--color-neutral-800)">
+          <li>BYO alcohol is permitted only with prior approval and must be confirmed as part of your booking.</li>
+          <li>External catering is welcome.</li>
+          <li>Guests may bring their own decorations, DJ, and music equipment.</li>
+          <li>Mirrors, decorative lighting, and selected décor items may be available upon request and subject to approval.</li>
+        </ul>
+      </section>
+      <section style="margin-top: 24px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 24px; letter-spacing: -0.01em; margin: 0; padding-top: 14px; border-top: 1px solid var(--color-divider); color: var(--color-text)">Noise &amp; Behaviour</h3>
+        <ul style="margin: 10px 0 0; padding: 0 0 0 22px; display: grid; gap: 8px; font-size: 13px; line-height: 23px; color: var(--color-neutral-800)">
+          <li>There are currently no specific noise restrictions; however, excessive noise and loud music, particularly outside normal operating hours, must be kept to a reasonable level.</li>
+          <li>The venue reserves the right to request a reduction in noise levels where required to avoid disturbance to neighbouring properties.</li>
+        </ul>
+      </section>
+      <section style="margin-top: 24px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 24px; letter-spacing: -0.01em; margin: 0; padding-top: 14px; border-top: 1px solid var(--color-divider); color: var(--color-text)">Parking</h3>
+        <ul style="margin: 10px 0 0; padding: 0 0 0 22px; display: grid; gap: 8px; font-size: 13px; line-height: 23px; color: var(--color-neutral-800)">
+          <li>A limited number of on-site parking spaces are available.</li>
+          <li>Guests attending larger events may be required to use the free street parking available in the surrounding area.</li>
+        </ul>
+      </section>
+      <section style="margin-top: 24px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 24px; letter-spacing: -0.01em; margin: 0; padding-top: 14px; border-top: 1px solid var(--color-divider); color: var(--color-text)">Damage &amp; Liability</h3>
+        <ul style="margin: 10px 0 0; padding: 0 0 0 22px; display: grid; gap: 8px; font-size: 13px; line-height: 23px; color: var(--color-neutral-800)">
+          <li>Any damage to the venue, fixtures, equipment, furniture, or other provided items will be assessed and charged to the hirer accordingly.</li>
+          <li>The venue owner accepts no liability for injury, loss, theft, or damage sustained by guests, except where required by applicable Australian law.</li>
+        </ul>
+      </section>
+      <section style="margin-top: 24px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 24px; letter-spacing: -0.01em; margin: 0; padding-top: 14px; border-top: 1px solid var(--color-divider); color: var(--color-text)">Pricing</h3>
+        <ul style="margin: 10px 0 0; padding: 0 0 0 22px; display: grid; gap: 8px; font-size: 13px; line-height: 23px; color: var(--color-neutral-800)">
+          <li>We understand that every event is unique, and we aim to provide flexible pricing based on your specific requirements, event type, guest numbers, and booking duration.</li>
+          <li>A deposit is required to secure your booking date. For bookings made within 7 days of the event date, full payment may be required at the time of booking.</li>
+          <li>Accepted payment methods includes Cash, PayID, Credit Card and Bank Transfer</li>
+          <li>All pricing quotes are provided in Australian Dollars (AUD) and include GST where applicable.</li>
+          <li>Please contact us for pricing and availability.</li>
+        </ul>
+      </section>
+      <section style="margin-top: 24px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 24px; letter-spacing: -0.01em; margin: 0; padding-top: 14px; border-top: 1px solid var(--color-divider); color: var(--color-text)">Cancellation &amp; Refund Policy</h3>
+        <ul style="margin: 10px 0 0; padding: 0 0 0 22px; display: grid; gap: 8px; font-size: 13px; line-height: 23px; color: var(--color-neutral-800)">
+          <li>A 24-hour grace period applies following booking confirmation, during which a full deposit refund is available.</li>
+          <li>The grace period does not apply to events scheduled to commence within 48 hours of booking.</li>
+          <li>Cancellations made more than 30 days before the event will receive a 100% refund.</li>
+          <li>Cancellations made between 30 days and 7 days before the event will receive a 50% refund.</li>
+          <li>Cancellations made within 7 days of the event are non-refundable.</li>
+        </ul>
+      </section>
+      <section style="margin-top: 24px">
+        <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 24px; letter-spacing: -0.01em; margin: 0; padding-top: 14px; border-top: 1px solid var(--color-divider); color: var(--color-text)">Privacy Policy</h3>
+        <ul style="margin: 10px 0 0; padding: 0 0 0 22px; display: grid; gap: 8px; font-size: 13px; line-height: 23px; color: var(--color-neutral-800)">
+          <li>We respect your privacy and are committed to protecting your personal information.</li>
+          <li>When you share booking request, we may collect information such as your name, email address, phone number, event details, and any other information you choose to provide.</li>
+          <li>We use this information solely to respond to enquiries, manage bookings, provide our services, and communicate with customers.</li>
+          <li>Your personal information will not be sold or shared with third parties except where required by law or where necessary to provide our services.</li>
+          <li>You may contact us at any time to request access to, correction of, or removal of your personal information where applicable.</li>
+          <li>We do not collect any personal information when you use our Website. We do not use cookies or similar tracking technologies on our Website.</li>
+        </ul>
+      </section>
+    </div>
     <div style="display: flex; justify-content: flex-start; margin-top: 32px">
       <button type="button" class="btn" onClick="{{ closeTerms }}" style="background: transparent; color: var(--color-accent-800); border-color: var(--color-accent-800)" style-hover="background: color-mix(in srgb, var(--color-accent-800) 14%, transparent)">Close</button>
     </div>
